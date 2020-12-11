@@ -104,7 +104,7 @@ export default {
 }
 </script>
 <style>
-	.header-top .top,.header-top .box-bottom{
+	.header-top .box-top,.header-top .box-bottom{
 		display: flex;
 		justify-content: space-between;
 	}
