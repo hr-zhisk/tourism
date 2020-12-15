@@ -51,7 +51,13 @@ line-height: 12px;
 }
 div.footer-bottom{
     color: #6a6d80;
-    font-size:13px;
+    font-size:16px;
 		text-align: center;
+		margin: 40px 0;
+		padding: 30px 0;
+		background: #272727;
+}
+.footer-bottom p{
+	margin-top: 30px;
 }
 </style>

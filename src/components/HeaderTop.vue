@@ -3,8 +3,8 @@
 		<div class="box-top">
 			<p>你好！欢迎访问西安旅游网~！</p>
 			<p>
-				<router-link to="javascript:;">登录</router-link> |
-				<router-link to="javascript:;">注册</router-link>
+				<router-link to="/login">登录</router-link> |
+				<router-link to="/register">注册</router-link>
 			</p>
 		</div>
 		<div class="box-bottom">
@@ -117,6 +117,7 @@ export default {
 	.header-top .box-bottom{
 		margin-top: 24px;
 		padding-left: 30px;
+		background: #f4f4f4;
 	}
 	.header-top .channel-list{
 		list-style: none;
@@ -146,6 +147,8 @@ export default {
 		padding: 0;
 		width: 120px;
 		margin-left:-20px ;
+		z-index: 480;
+		background: #f4f4f4;
 	}
 	.header-top .channel-list>li>ul>li{
 		font-size: 15px;color: #2c3e50;
